@@ -7,9 +7,15 @@
 go mod init github.com/kgwny/go-echo-gorm-rest-api-example
 ```
 
-echo フレームワークのインストール
+Echo フレームワークのインストール
 ```
 go get -u github.com/labstack/echo/v4
+```
+
+GORM と MySQL Driver のインストール
+```
+go get gorm.io/gorm
+go get gorm.io/driver/mysql
 ```
 
 ## Hello, Echo! を実行する
